@@ -1,0 +1,189 @@
+Script started on Mon Jan 21 18:32:10 2019
+# bash
+]0;root@6630abdda46e: /week1root@6630abdda46e:/week1# ls
+Abad_week1_activity.txt
+]0;root@6630abdda46e: /week1root@6630abdda46e:/week1# cd /home
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# pwd
+/home
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# mkdir pathfinder
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# mkdir ultimate-1
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# cd pathfinder
+]0;root@6630abdda46e: /home/pathfinderroot@6630abdda46e:/home/pathfinder# touch file1.txt file2.txt file3.txt.  file4.tx t file5.txt
+]0;root@6630abdda46e: /home/pathfinderroot@6630abdda46e:/home/pathfinder# [Kls
+file1.txt  file2.txt  file3.txt  file4.txt  file5.txt
+]0;root@6630abdda46e: /home/pathfinderroot@6630abdda46e:/home/pathfinder# ls -a
+[0m[01;34m.[0m  [01;34m..[0m  file1.txt  file2.txt  file3.txt  file4.txt  file5.txt
+]0;root@6630abdda46e: /home/pathfinderroot@6630abdda46e:/home/pathfinder# cd ..
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# ls
+[0m[01;34mpathfinder[0m  [01;34multimate-1[0m
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# mv pathfinder / ultimate-1/pathfinder
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# [Kls
+[0m[01;34multimate-1[0m
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# cd ultimate-1
+]0;root@6630abdda46e: /home/ultimate-1root@6630abdda46e:/home/ultimate-1# cd pathd finder
+]0;root@6630abdda46e: /home/ultimate-1/pathfinderroot@6630abdda46e:/home/ultimate-1/pathfinder# ls
+file1.txt  file2.txt  file3.txt  file4.txt  file5.txt
+]0;root@6630abdda46e: /home/ultimate-1/pathfinderroot@6630abdda46e:/home/ultimate-1/pathfinder# cp file1.txt Abad.txt
+]0;root@6630abdda46e: /home/ultimate-1/pathfinderroot@6630abdda46e:/home/ultimate-1/pathfinder# ls
+Abad.txt  file1.txt  file2.txt  file3.txt  file4.txt  file5.txt
+]0;root@6630abdda46e: /home/ultimate-1/pathfinderroot@6630abdda46e:/home/ultimate-1/pathfinder# cd /etc
+]0;root@6630abdda46e: /etcroot@6630abdda46e:/etc# [Kcat group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:
+floppy:x:25:
+tape:x:26:
+sudo:x:27:
+audio:x:29:
+dip:x:30:
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-timesync:x:102:
+systemd-network:x:103:
+systemd-resolve:x:104:
+systemd-bus-proxy:x:105:
+netdev:x:106:
+ssh:x:107:
+]0;root@6630abdda46e: /etcroot@6630abdda46e:/etc# head -10 shadow
+root:*:17738:0:99999:7:::
+daemon:*:17738:0:99999:7:::
+bin:*:17738:0:99999:7:::
+sys:*:17738:0:99999:7:::
+sync:*:17738:0:99999:7:::
+games:*:17738:0:99999:7:::
+man:*:17738:0:99999:7:::
+lp:*:17738:0:99999:7:::
+mail:*:17738:0:99999:7:::
+news:*:17738:0:99999:7:::
+]0;root@6630abdda46e: /etcroot@6630abdda46e:/etc# taile    -10 group
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-timesync:x:102:
+systemd-network:x:103:
+systemd-resolve:x:104:
+systemd-bus-proxy:x:105:
+netdev:x:106:
+ssh:x:107:
+]0;root@6630abdda46e: /etcroot@6630abdda46e:/etc# ; cd /week1
+]0;root@6630abdda46e: /week1root@6630abdda46e:/week1# ls
+Abad_week1_activity.txt
+]0;root@6630abdda46e: /week1root@6630abdda46e:/week1# cd /home
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# ls
+[0m[01;34multimate-1[0m
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# cd ultimate-1/pathdin   finder
+]0;root@6630abdda46e: /home/ultimate-1/pathfinderroot@6630abdda46e:/home/ultimate-1/pathfinder# ls
+Abad.txt  file1.txt  file2.txt  file3.txt  file4.txt  file5.txt
+]0;root@6630abdda46e: /home/ultimate-1/pathfinderroot@6630abdda46e:/home/ultimate-1/pathfinder# rm file4.txt
+]0;root@6630abdda46e: /home/ultimate-1/pathfinderroot@6630abdda46e:/home/ultimate-1/pathfinder# cd ..
+]0;root@6630abdda46e: /home/ultimate-1root@6630abdda46e:/home/ultimate-1# cd ..
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# ls
+[0m[01;34multimate-1[0m
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# rm -rf ultimate-1
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# man echo
+bash: man: command not found
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# history
+    1  exit
+    2  git clone https://github.com/LisaSmith1/pathfinder-sp19.git
+    3  exit
+    4  ls
+    5  cd /home
+    6  pwd
+    7  mkdir pathfinder
+    8  mkdir ultimate-1
+    9  cd pathfinder
+   10  touch file1.txt file2.txt file3.txt file4.txt file5.txt
+   11  ls
+   12  ls -a
+   13  cd ..
+   14  ls
+   15  mv pathfinder ultimate-1/pathfinder
+   16  ls
+   17  cd ultimate-1
+   18  cd pathfinder
+   19  ls
+   20  cp file1.txt Abad.txt
+   21  ls
+   22  cd /etc
+   23  cat group
+   24  head -10 shadow
+   25  tail -10 group
+   26  cd /week1
+   27  ls
+   28  cd /home
+   29  ls
+   30  cd ultimate-1/pathfinder
+   31  ls
+   32  rm file4.txt
+   33  cd ..
+   34  ls
+   35  rm -rf ultimate-1
+   36  man echo
+   37  history
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# exit
+exit
+# bash
+]0;root@6630abdda46e: /week1root@6630abdda46e:/week1# ls
+Abad_week1_activity.txt
+]0;root@6630abdda46e: /week1root@6630abdda46e:/week1# cd ..
+]0;root@6630abdda46e: /root@6630abdda46e:/# ls
+[0m[01;34mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;34mlib64[0m  [01;34mmnt[0m  [01;34mpathfinder-sp19[0m  [01;34mroot[0m  [01;34msbin[0m  [01;34msys[0m  [01;34musr[0m  [01;34mweek1[0m
+[01;34mboot[0m  [01;34metc[0m  [01;34mlib[0m   [01;34mmedia[0m  [01;34mopt[0m  [01;34mproc[0m             [01;34mrun[0m   [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+]0;root@6630abdda46e: /root@6630abdda46e:/# cd week1
+]0;root@6630abdda46e: /week1root@6630abdda46e:/week1# git status
+fatal: Not a git repository (or any of the parent directories): .git
+]0;root@6630abdda46e: /week1root@6630abdda46e:/week1# git -   checkout -b TimAbad
+fatal: Not a git repository (or any of the parent directories): .git
+]0;root@6630abdda46e: /week1root@6630abdda46e:/week1# cd ..
+]0;root@6630abdda46e: /root@6630abdda46e:/# ls
+[0m[01;34mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;34mlib64[0m  [01;34mmnt[0m  [01;34mpathfinder-sp19[0m  [01;34mroot[0m  [01;34msbin[0m  [01;34msys[0m  [01;34musr[0m  [01;34mweek1[0m
+[01;34mboot[0m  [01;34metc[0m  [01;34mlib[0m   [01;34mmedia[0m  [01;34mopt[0m  [01;34mproc[0m             [01;34mrun[0m   [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+]0;root@6630abdda46e: /root@6630abdda46e:/# cd pathfinder-a sp19
+]0;root@6630abdda46e: /pathfinder-sp19root@6630abdda46e:/pathfinder-sp19# ls
+README.md  [0m[01;34mtest[0m
+]0;root@6630abdda46e: /pathfinder-sp19root@6630abdda46e:/pathfinder-sp19# git checou  kout -b TimAbad
+Switched to a new branch 'TimAbad'
+]0;root@6630abdda46e: /pathfinder-sp19root@6630abdda46e:/pathfinder-sp19# git status
+On branch TimAbad
+nothing to commit, working directory clean
+]0;root@6630abdda46e: /pathfinder-sp19root@6630abdda46e:/pathfinder-sp19# cd /o home/week1
+bash: cd: /home/week1: No such file or directory
+]0;root@6630abdda46e: /pathfinder-sp19root@6630abdda46e:/pathfinder-sp19# cd /home
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# ls
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# ls
+]0;root@6630abdda46e: /homeroot@6630abdda46e:/home# cd ..
+]0;root@6630abdda46e: /root@6630abdda46e:/# ls
+[0m[01;34mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;34mlib64[0m  [01;34mmnt[0m  [01;34mpathfinder-sp19[0m  [01;34mroot[0m  [01;34msbin[0m  [01;34msys[0m  [01;34musr[0m  [01;34mweek1[0m
+[01;34mboot[0m  [01;34metc[0m  [01;34mlib[0m   [01;34mmedia[0m  [01;34mopt[0m  [01;34mproc[0m             [01;34mrun[0m   [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+]0;root@6630abdda46e: /root@6630abdda46e:/# cd 
